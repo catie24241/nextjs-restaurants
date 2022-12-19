@@ -1,0 +1,15 @@
+.menuItem{
+    background-color: white;
+    display: flex; 
+    margin: 1rem; 
+    .image{
+        width: 150px; 
+        height: auto; 
+        margin-right: 1rem;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
