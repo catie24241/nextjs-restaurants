@@ -1,6 +1,7 @@
 // the waterfall 
 import Button from '../../components/Button';
 import Col from '../../components/Col';
+import Container from '../../components/Container';
 import Link from 'next/link';
 import Layout from '../../components/Layout';
 import MenuItem from '../../components/MenuItem';
@@ -51,6 +52,7 @@ const RestaurantPage = ({restaurantData}) => {
             backgroundImage={featuredImage ? featuredImage.node.sourceUrl : null}
  
         />
+        <Container> 
         <Row> 
         <Col width='9'>
             <Heading level='1' marginBottom='1'>{title}</Heading>
@@ -140,6 +142,7 @@ const RestaurantPage = ({restaurantData}) => {
   
         </Col>
         </Row>
+        </Container>
         </Layout>
 }
 export default RestaurantPage
